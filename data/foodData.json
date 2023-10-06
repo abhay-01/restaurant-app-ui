@@ -1,0 +1,282 @@
+[
+    {
+      "id": 1,
+      "title": "Spaghetti Carbonara",
+      "description": "Classic Italian pasta dish with eggs, cheese, pancetta, and black pepper.",
+      "similarItems": [2,3,4,5],
+      "specialty": "Italian",
+      "rating": 4.5,
+      "veg": false,
+      "image": "dish1.jpg", 
+      "price": 12.99,
+      "ingredients": ["Pasta", "Eggs", "Pancetta", "Cheese", "Black Pepper"],
+      "reviews": [
+        {
+          "id": 101,
+          "user": "John Doe",
+          "rating": 4,
+          "comment": "Delicious!"
+        },
+        {
+          "id": 102,
+          "user": "Jane Smith",
+          "rating": 5,
+          "comment": "The best carbonara I've ever had."
+        }
+      ]
+
+    },
+    {
+      "id": 2,
+      "title": "Margherita Pizza",
+      "description": "Traditional Italian pizza with tomato sauce, mozzarella, and basil.",
+      "specialty": "Italian",
+      "similarItems": [2,3,4,5],
+
+      "rating": 4.8,
+      "veg": true,
+      "image": "dish1.png",
+      "price": 10.99,
+      "ingredients": ["Dough", "Tomato Sauce", "Mozzarella", "Basil"],
+      "reviews": [
+        {
+          "id": 201,
+          "user": "Alice Johnson",
+          "rating": 5,
+          "comment": "Amazing pizza!"
+        },
+        {
+          "id": 202,
+          "user": "Bob Wilson",
+          "rating": 4,
+          "comment": "Simple and delicious."
+        }
+      ]
+
+    },
+    {
+      "id": 3,
+      "title": "Sushi Platter",
+      "description": "Assorted sushi rolls with fresh fish and rice.",
+      "specialty": "Japanese",
+      "similarItems": [2,3,4,5],
+
+      "rating": 4.7,
+      "veg": false,
+      "image": "dish1.png",
+      "price": 18.99,
+      "ingredients": ["Sushi Rice", "Fresh Fish", "Seaweed", "Soy Sauce"],
+      "reviews": [
+        {
+          "id": 301,
+          "user": "David Lee",
+          "rating": 4,
+          "comment": "Great sushi selection!"
+        },
+        {
+          "id": 302,
+          "user": "Sarah Adams",
+          "rating": 5,
+          "comment": "Perfect for sushi lovers."
+        }
+      ]
+
+    },
+    {
+      "id": 4,
+      "title": "Chicken Alfredo",
+      "description": "Creamy pasta dish with chicken, Parmesan cheese, and Alfredo sauce.",
+      "specialty": "Italian",
+      "similarItems": [2,3,4,5],
+
+      "rating": 4.6,
+      "veg": false,
+      "image": "dish1.png",
+      "price": 14.99,
+      "ingredients": ["Pasta", "Chicken", "Parmesan Cheese", "Alfredo Sauce"],
+      "reviews": [
+        {
+          "id": 401,
+          "user": "Emily Parker",
+          "rating": 5,
+          "comment": "Absolutely delicious!"
+        },
+        {
+          "id": 402,
+          "user": "Michael Smith",
+          "rating": 4,
+          "comment": "Rich and flavorful."
+        }
+      ]
+     
+
+    },
+
+    {
+        "id": 5,
+        "title": "Chicken Alfredo",
+        "description": "Creamy pasta dish with chicken, Parmesan cheese, and Alfredo sauce.",
+        "specialty": "Italian",
+        "rating": 4.6,
+        "similarItems": [2,3,4,5],
+
+        "veg": false,
+        "image": "dish1.png",
+        "price": 14.99,
+        "ingredients": ["Pasta", "Chicken", "Parmesan Cheese", "Alfredo Sauce"],
+        "reviews": [
+          {
+            "id": 401,
+            "user": "Emily Parker",
+            "rating": 5,
+            "comment": "Absolutely delicious!"
+          },
+          {
+            "id": 402,
+            "user": "Michael Smith",
+            "rating": 4,
+            "comment": "Rich and flavorful."
+          }
+        ]
+
+      },
+      {
+        "id": 6,
+        "title": "Chicken Alfredo",
+        "description": "Creamy pasta dish with chicken, Parmesan cheese, and Alfredo sauce.",
+        "specialty": "Italian",
+        "rating": 4.6,
+        "similarItems": [2,3,4,5],
+
+        "veg": false,
+        "image": "../assets/dish1.png",
+        "price": 14.99,
+        "ingredients": ["Pasta", "Chicken", "Parmesan Cheese", "Alfredo Sauce"],
+        "reviews": [
+          {
+            "id": 401,
+            "user": "Emily Parker",
+            "rating": 5,
+            "comment": "Absolutely delicious!"
+          },
+          {
+            "id": 402,
+            "user": "Michael Smith",
+            "rating": 4,
+            "comment": "Rich and flavorful."
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "title": "Chicken Alfredo",
+        "description": "Creamy pasta dish with chicken, Parmesan cheese, and Alfredo sauce.",
+        "specialty": "Italian",
+        "rating": 4.6,
+        "similarItems": [2,3,4,5],
+
+        "veg": false,
+        "image": "../assets/dish1.png",
+        "price": 14.99,
+        "ingredients": ["Pasta", "Chicken", "Parmesan Cheese", "Alfredo Sauce"],
+        "reviews": [
+          {
+            "id": 401,
+            "user": "Emily Parker",
+            "rating": 5,
+            "comment": "Absolutely delicious!"
+          },
+          {
+            "id": 402,
+            "user": "Michael Smith",
+            "rating": 4,
+            "comment": "Rich and flavorful."
+          }
+        ]
+          },
+      {
+        "id": 8,
+        "title": "Chicken Alfredo",
+        "description": "Creamy pasta dish with chicken, Parmesan cheese, and Alfredo sauce.",
+        "specialty": "Italian",
+        "rating": 4.6,
+        "image": "../assets/dish1.png",
+        "similarItems": [2,3,4,5],
+
+        "veg": false,
+        "price": 14.99,
+        "ingredients": ["Pasta", "Chicken", "Parmesan Cheese", "Alfredo Sauce"],
+        "reviews": [
+          {
+            "id": 401,
+            "user": "Emily Parker",
+            "rating": 5,
+            "comment": "Absolutely delicious!"
+          },
+          {
+            "id": 402,
+            "user": "Michael Smith",
+            "rating": 4,
+            "comment": "Rich and flavorful."
+          }
+        ]      },
+      {
+        "id": 9,
+        "title": "Chicken Alfredo",
+        "description": "Creamy pasta dish with chicken, Parmesan cheese, and Alfredo sauce.",
+        "specialty": "Italian",
+        "similarItems": [2,3,4,5],
+
+        "rating": 4.6,
+        "veg": false,
+        "image": "../assets/dish1.png",
+        "price": 14.99,
+        "ingredients": ["Pasta", "Chicken", "Parmesan Cheese", "Alfredo Sauce"],
+        "reviews": [
+          {
+            "id": 401,
+            "user": "Emily Parker",
+            "rating": 5,
+            "comment": "Absolutely delicious!"
+          },
+          {
+            "id": 402,
+            "user": "Michael Smith",
+            "rating": 4,
+            "comment": "Rich and flavorful."
+          }
+        ]
+          },
+      {
+        "id": 10,
+        "title": "Chicken Alfredo",
+        "description": "Creamy pasta dish with chicken, Parmesan cheese, and Alfredo sauce.",
+        "specialty": "Italian",
+        "similarItems": [2,3,4,5],
+
+        "rating": 4.6,
+        "veg": false,
+        "price": 14.99,
+        "image": "../assets/dish1.png",
+        "ingredients": ["Pasta", "Chicken", "Parmesan Cheese", "Alfredo Sauce"],
+        "reviews": [
+          {
+            "id": 401,
+            "user": "Emily Parker",
+            "rating": 5,
+            "comment": "Absolutely delicious!"
+          },
+          {
+            "id": 402,
+            "user": "Michael Smith",
+            "rating": 4,
+            "comment": "Rich and flavorful."
+          }
+        ]
+          }
+    
+
+  ]
+
+
+  
