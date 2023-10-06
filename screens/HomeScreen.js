@@ -43,7 +43,7 @@ const HomeScreen = () => {
                 />
                 <TouchableOpacity
                     style={styles.filterButton}
-                    onPress={() => navigation.navigate('Filter')}
+                
                 >
                     <Icon name="filter" size={20} color="white" />
                     <Text style={styles.filterButtonText}>Filter</Text>

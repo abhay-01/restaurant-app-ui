@@ -3,7 +3,6 @@ import { createStackNavigator } from '@react-navigation/stack';
 import { NavigationContainer } from '@react-navigation/native';
 import HomeScreen from '../screens/HomeScreen';
 import FoodDetailScreen from '../screens/FoodDetailScreen';
-import FilterScreen from '../screens/FilterScreen';
 
 
 const Stack = createStackNavigator();
@@ -18,9 +17,7 @@ export default function AppNavigation() {
                 headerShown: false
             }} />
 
-            <Stack.Screen name = "Filter" component={FilterScreen} options={{
-                headerShown: false
-            }} />
+            
 
         </Stack.Navigator>
     </NavigationContainer>
